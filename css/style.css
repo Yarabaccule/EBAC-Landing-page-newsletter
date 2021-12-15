@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: Open Sans;
+}
+
+.logo img{
+    width: 20%;
+}
+header{
+    border-bottom: 1px solid rgb(97, 96, 96);
+}
+ul ::marker{
+    color: transparent;
+}
+
+.nav{
+    position:relative;
+    width:25%;
+    float: left;
+
+}
+
+.nav li{
+    text-align: center;
+    background-color: #efefef;
+    margin:5px 1px 1px 1px;
+    padding: 10px;
+    width:150%;
+}
+.nav a{
+    text-decoration: none;
+    color:black;
+}
+.txt{
+
+    position: relative;
+    width:70%;
+    left:0px;
+    float: left;
+    margin:2%;
+}
+.txt img{
+    width:80%;
+}
+.txt a img{
+    width: 10%;
+}
+h1{
+    margin:3%;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+
+td img{
+    width:10%;
+}
+
+ .cog-abuse{
+     display: none !important;
+ }
+ .cog-branding--minimal{
+    display: none !important;
+
+ }
+
+ @media (max-width: 600px) {
+     .nav{
+        width: 100%;
+     }
+     .txt{
+         width:95%;
+         text-align: center;
+     }
+ }
